@@ -1,0 +1,144 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Rubik:ital,wght@0,700;1,300&family=Trirong:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <title>TRAINING</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <!--Navigation Start-->
+                <div class="row">
+
+                    <nav class="navbar-brand">
+                        <img src="{% static 'images/logo.png' %}" alt="">
+                    </nav>
+
+                    <nav class='navbar-nav'>
+                        <ul class='navigation'>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/memberships">Memberships</a></li>
+                            <li><a href="/training">Training</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/store">Store</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav class="profile">
+                        <ul class="nav profile-navigation">
+                            <li><a href="login">Login</a></li>
+                            <li><a href="register">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Navigation End-->
+                <!--Hero Start-->
+                <div class="hero col-md-9">
+                    <h1><span class='highlight'>Training</span></h1>
+                    <h3>Individualized and small group training can be the “fast late” to meeting your health and fitness goals. Whether you are new to the fitness world and looking for personalized initial instruction, an experienced athlete in need of specific skill development , or anywhere in between—Unique Physique offers a wide selection of training options.</h2>
+                </div>
+                <!--Hero End-->
+            </header>
+            <!--Content Start-->
+            <div class="row">
+                <div class="card col-md-3 border-primary border-rounded">
+                    <img class='card-img' src="{% static '/images/grit.jpg' %}" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Grit Series</h2>
+                        </div>
+                        <div class="card-text"><h4>Private yoga sessions with an Unique Physique yoga instructor can be an invaluable tool for yoga students of any experience level. These sessions provide the perfect setting to work on specific areas of interest or personal goals while receiving one-on-one instruction.
+
+                            Call today to set up your FREE consultation with Deb.</h4></div>
+                    </div>
+                </div>
+
+                <div id='staff' class="card col-md-3 border-primary border-rounded">
+                    <img class='card-img' src="{% static '/images/personal1.jpg' %}" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Personal Training</h2>
+                        </div>
+                        <div class="card-text"><h4>Are you recovering from an injury, training to improve in your favorite sport, or just want to get in better shape? Whatever your needs, our personal trainers offer customized workout programs designed to help you meet your individual fitness goals.
+
+                            Experienced personal trainers:
+                            Our trainers are N.A.S.M. certified (National Academy of Sports Medicine). Schedule a FREE session and see what they can do for you!</h4></div>
+                    </div>
+                </div>
+
+                <div id='staff' class="card col-md-3 border-primary border-rounded">
+                    <img class='card-img' src="{% static '/images/grit.jpg' %}" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Grit</h2>
+                        </div>
+                        <div class="card-text"><h4>Unique Physique offers Les Mills’ popular and effective high intensity, interval training GRIT™SERIES! These sessions will push you to your max, and beyond.
+
+                            It’s a strong claim: get much fitter, faster – while spending no extra time on your workouts. It’s a claim we can prove! Recent research by at Pennsylvania State University proves that LES MILLS GRIT™SERIES gets real results.
+                            
+                            Get the up close and personal attention of small group or team training. With your coach right down on the floor with you, motivating you and the team, you won’t believe how hard you can work out.
+                            
+                            You don’t have to be a member to join this small group training! Sign up today!
+                            
+                            <span class='highlight'>Grit-Included in your $39/month membership – $39/month-Non-member – unlimited classes
+                            
+                            CLASS SCHEDULE:  Monday 6:30pm-7:00pm (sign up required), Wednesday 6:30pm-7:00pm, Thursday 9am-9:30am and Sat. 8:30am</span>
+                            
+                             </h4></div>
+                    </div>
+                </div>
+            </div>
+            <!--Content End-->
+
+            <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="/home">Home</a></li>
+                                    <li><a href="/memberhsips"> Memberships</a></li>
+                                    <li><a href="/training">Training</a></li>
+                                    <li><a href="/services">Services</a></li>
+                                    <li><a href="/store">Store</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 col-md-7">
+                        <div class="footer-copy-right">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                  
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+
+        </div>
+    </body>
+</html>

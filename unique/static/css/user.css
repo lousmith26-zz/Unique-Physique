@@ -1,0 +1,99 @@
+body{
+    background-color: #ededed !important;
+    margin: 0;
+    font-family: 'Triron' !important;
+}
+
+h1{
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 5rem !important;
+    color: white;
+}
+
+.profile-navigation{
+    margin-top: 2.6rem;
+    padding-left: 2rem !important;
+}
+
+.profile-navigation a{
+    color: white !important;
+    padding-left: 2rem;
+}
+
+.profile-navigation a:hover{
+    text-decoration: none;
+    color: #CA2129 !important;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.navbar-brand{
+    padding: 1rem;
+}
+
+.navbar-nav li{
+    float: left;
+}
+
+.profile{
+    margin-left: 5rem;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    float: left !important;
+}
+
+.navigation a{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navigation a:hover{
+    color: #CA2129;
+    text-decoration: none;
+}
+
+.footer-tittle{
+    margin-top: 2rem;
+}
+
+.footer-tittle h4{
+    font-family: 'Rubik';
+    color: #CA2129;
+}
+
+.footer-tittle ul{
+    list-style: none;
+}
+
+.footer-tittle ul a{
+    color: black;
+}
+
+.footer-tittle a:hover{
+    color: #CA2129;
+}
+
+header{
+    background-color: #262425;
+}
+
+.card{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;;
+}
+
+.col-md-12{
+    color: red;
+}

@@ -1,0 +1,181 @@
+body{
+    background-color: #ededed !important;
+    margin: 0;
+    font-family: 'Triron' !important;
+}
+
+h1{
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 5rem !important;
+    color: white;
+}
+
+h2{
+    font-family: 'Rubik';
+    color: #CA2129;
+}
+
+h3{
+font-family: 'Rubik';
+color: white !important;
+padding-bottom: 1rem !important;
+}
+
+#staff{
+    margin-left: 1rem;
+}
+
+.card-img{
+    border-radius: 2rem !important;
+    margin-top: 1rem;
+}
+
+.wrapper{
+    background-color: #CA2129;
+}
+
+.overlay{
+    opacity: .7;
+    z-index: 1000;
+    padding: 2rem;
+}
+
+.top-membership{
+    background-image: url(/static/images/group.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-membership{
+    background-image: url(/static/images/smallgroup.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary{
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    box-shadow: #CA2129 5px 5px;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.card{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2rem !important;
+    margin-top: 3rem;
+    box-shadow: #CA2129 5px 5px;
+}
+
+.highlight{
+    color: #CA2129;
+}
+
+header{
+    background-color: #262425;
+}
+
+.hero{
+    margin-top: 4rem;
+}
+
+.profile-navigation{
+    margin-top: 2.6rem;
+    padding-left: 2rem !important;
+}
+
+.profile-navigation a{
+    color: white !important;
+    padding-left: 2rem;
+}
+
+.profile-navigation a:hover{
+    text-decoration: none;
+    color: #CA2129 !important;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.navbar-brand{
+    padding: 1rem;
+}
+
+.navbar-nav li{
+    float: left;
+}
+
+.profile{
+    margin-left: 5rem;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    float: left !important;
+}
+
+.navigation a{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navigation a:hover{
+    color: #CA2129;
+    text-decoration: none;
+}
+
+.footer-tittle{
+    margin-top: 2rem;
+}
+
+.footer-tittle h4{
+    font-family: 'Rubik';
+    color: #CA2129;
+}
+
+.footer-tittle ul{
+    list-style: none;
+}
+
+.footer-tittle ul a{
+    color: black;
+}
+
+.footer-tittle a:hover{
+    color: #CA2129;
+}
+
+.card-body{
+    width: 100%;
+}
+
+.register{
+    width: 100%;
+    background-color: red;
+}
+
+.card-body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.input-register{
+ background-color: yellow;   
+}
+
+label{
+    background-color: purple;
+}

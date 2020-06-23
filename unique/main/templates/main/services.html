@@ -1,0 +1,140 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Rubik:ital,wght@0,700;1,300&family=Trirong:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <title>TRAINING</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <!--Navigation Start-->
+                <div class="row">
+
+                    <nav class="navbar-brand">
+                        <img src="{% static 'images/logo.png' %}" alt="">
+                    </nav>
+
+                    <nav class='navbar-nav'>
+                        <ul class='navigation'>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/memberships">Memberships</a></li>
+                            <li><a href="/training">Training</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/store">Store</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav class="profile">
+                        <ul class="nav profile-navigation">
+                            <li><a href="login">Login</a></li>
+                            <li><a href="register">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Navigation End-->
+                <!--Hero Start-->
+                <div class="hero col-md-9">
+                    <h1><span class='highlight'>Services</span></h1>
+                    <h3>Unique Physique offers a variety of additional services to support you in your journey to better health.</h3>                </div>
+                <!--Hero End-->
+            </header>
+            <!--Content Start-->
+            <div class="row">
+                <div class="card col-md-4 border-primary border-rounded">
+                    <img class='card-img' src="{% static '/images/dotfit400.jpg' %}" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Supplementation-Dot Fit</h2>
+                        </div>
+                        <div class="card-text"><h4>Unique Physique is a licensed distributor of dotFIT Supplements. The DotFIT product line includes products that will promote weight loss, build muscle and enhance athletic performance. All are backed by the dotFIT promise: “dotFIT uses only quality ingredients that undergo rigorous testing, supported by scientific fact, not marketing hype. Through our exclusive delivery systems, our products provide your body with the right nutrients at the right time for maximum benefit.”
+
+                            Our certified dotFit trainers John Kerchner, Lori Cooper and Jamie Lau are available for your personal consultation.</h4></div>
+                    </div>
+                </div>
+
+                <div id='staff' class="card col-md-4 border-primary border-rounded">
+                    <img class='card-img' src="{% static '/images/6.jpg' %}" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Child Care</h2>
+                        </div>
+                        <div class="card-text"><h4>Finding time for an exercise routine can seem nearly impossible when you are responsible for a baby or young child…Unique Physique has the answer to that problem.
+
+                            All memberships include access to our child care services. Available for children from infants to age 12, our child care room offers games and toys for supervised play. Enjoy our classes and gym facilities knowing that your children are in good hands.
+                            <br>
+                            Mornings:
+                            Monday – Friday
+                            9:00 AM – 11:00 AM
+                            <br>
+                            Evenings:
+                            Monday, Tuesday and Thursday -4:30 PM – 7:30 PM
+                            <br>
+                            Wednesday 4:30pm-7pm
+                            <br>
+                            Friday 4:30 PM – 5:30 PM
+                            <br>
+                            Saturday:
+                            8:15 AM – 11:00 AM
+                            <br>
+                            *There is a 2 hour limit per visit
+                            <br>
+                            *Ages 6 weeks to 12 years of age are allowed
+                            <br>
+                            *If you bring a child that is not your child (i.e. grandchild, friends, etc.) there is a $2.50 fee per child payable at front desk.</h4></div>
+                    </div>
+                </div>
+            </div>
+            <!--Content End-->
+
+            <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="/home">Home</a></li>
+                                    <li><a href="/memberhsips"> Memberships</a></li>
+                                    <li><a href="/training">Training</a></li>
+                                    <li><a href="/services">Services</a></li>
+                                    <li><a href="/store">Store</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 col-md-7">
+                        <div class="footer-copy-right">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                  
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+
+        </div>
+    </body>
+</html>
